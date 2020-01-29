@@ -10,7 +10,7 @@ export default {
     data() {
         return {
             nfl: this.$store.getters.nfl,
-            imageSrc: '../src/assets/nfl-logo1.png',
+            imageSrc: './../src/assets/nfl-logo1.png',
         };
     },
     props: {
@@ -31,7 +31,7 @@ export default {
                     }
                 }
             } else {
-                this.imageSrc = '../src/assets/nfl-logo1.png';
+                this.imageSrc = './../src/assets/nfl-logo1.png';
             }
         },
         navigateHome() {
