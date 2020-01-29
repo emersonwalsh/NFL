@@ -1,6 +1,6 @@
 <template>
 <div class="navigation">
-    <img src="../assets/left-arrow.png"
+    <img src="./../assets/left-arrow.png"
         v-on:click="navigateHome()">
     <div class="navigation__text"
         v-on:click="navigateHome()">

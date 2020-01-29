@@ -2,6 +2,8 @@
 
 > Responsive website showing performance trends of each NFL team
 
+Demo: https://emersonwalsh.github.io/NFL/
+
 ## Build Setup
 
 ``` bash
