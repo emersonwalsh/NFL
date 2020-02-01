@@ -47,15 +47,14 @@ write.csv2(scrape_season_play_by_play(2019, type="reg", teams = "DET"),
 write.csv2(scrape_season_play_by_play(2019, type="reg", teams = "GB"),
     file = "./GB_reg_pbp_19.csv", row.names = FALSE)
 
-# below here still needs to be run
 write.csv2(scrape_season_play_by_play(2019, type="reg", teams = "HOU"),
     file = "./HOU_reg_pbp_19.csv", row.names = FALSE)
 
 write.csv2(scrape_season_play_by_play(2019, type="reg", teams = "IND"),
     file = "./IND_reg_pbp_19.csv", row.names = FALSE)
 
-write.csv2(scrape_season_play_by_play(2019, type="reg", teams = "JAC"),
-    file = "./JAC_reg_pbp_19.csv", row.names = FALSE)
+# write.csv2(scrape_season_play_by_play(2019, type="reg", teams = "JAC"),
+#     file = "./JAC_reg_pbp_19.csv", row.names = FALSE)
 
 write.csv2(scrape_season_play_by_play(2019, type="reg", teams = "KC"),
     file = "./KC_reg_pbp_19.csv", row.names = FALSE)
@@ -108,5 +107,5 @@ write.csv2(scrape_season_play_by_play(2019, type="reg", teams = "JAX"),
 write.csv2(scrape_season_play_by_play(2019, type="reg", teams = "LAC"),
     file = "./LAC_reg_pbp_19.csv", row.names = FALSE)
 
-write.csv2(scrape_season_play_by_play(2019, type="reg", teams = "LAR"),
-    file = "./LAR_reg_pbp_19.csv", row.names = FALSE)
+write.csv2(scrape_season_play_by_play(2019, type="reg", teams = "LA"),
+    file = "./LA_reg_pbp_19.csv", row.names = FALSE)
